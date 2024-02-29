@@ -1,0 +1,42 @@
+.logo{
+    flex:1;
+    font-size:40px;
+    padding:20px;
+    margin-left:-10px;
+    margin-top:-10px;
+    margin-right:-10px;
+    padding-bottom:10px;
+    font-family:"Lucida Handwriting",Cursive;
+    background-color: rgb(10, 111, 194);
+}
+
+ul.menu {
+    display:inline;
+    flex: 1;
+    display:flex;
+    flex-flow:row wrap;
+    background-color:burlywood;
+}
+
+.menu li {
+    float:left;
+    display:block;
+    flex: 1;
+    list-style-type:none;
+    font-size: 16px;
+    font-family:"Barlow Condensed";
+    text-align: right;
+    margin-right:10px;
+    margin-left:100px; 
+    margin-top:10px;
+    margin-bottom:10px;
+    height:20px;
+
+}
+
+body{
+    background-image:url("4.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 1500px 700px;
+
+}
